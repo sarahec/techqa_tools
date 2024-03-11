@@ -1,5 +1,1 @@
-# this is a package
-
-from tools import *
-
-__version__ = "0.0.1"
+from .tools import read_corpus_entries, read_corpus_segments, save_tokenized_corpus, tokenize_corpus, label_corpus
