@@ -1,2 +1,8 @@
 [build-system]
-requires = ["Cython>=3.0.7", "setuptools", "wheel"]
+requires = ["Cython>=3.0.7", "setuptools>=40.8.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "techqa_tools"
+version = "0.0.1"
+
